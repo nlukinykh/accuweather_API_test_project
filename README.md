@@ -10,7 +10,7 @@ Limit 1 key/developer
 ## How to start:
 ### 1. Clone the project
 ```
-git clone https://github.com/nlukinykh/accuweather_test_project.git
+git clone https://github.com/nlukinykh/accuweather_API_test_project.git
 ```
 
 ### 2. Activate environment
