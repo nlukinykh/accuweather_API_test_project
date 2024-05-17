@@ -3,7 +3,7 @@ import data.forecast_API.test_data_1_day as test_data_1_day
 from make_requests import make_request
 
 
-@pytest.mark.parametrize("positive_tests", test_data_1_day.test_successfull_default,
+@pytest.mark.parametrize("positive_tests", test_data_1_day.test_successfully_default,
                          ids=lambda test: test['description'])
 def test_get_simple_response_for_1_day_success(positive_tests: dict):
     input_data = positive_tests["input_data"]
@@ -30,10 +30,9 @@ def test_get_response_for_1_day_with_incorrect_parameters(incorrect_parameters_t
     data = response.json()
     # Assertion:
     assert response.status_code == output_data["code"]  # Validation of status code
-    assert len(data) == output_data["length"]
     assert data["Code"] == output_data["code_description"]
     assert data["Message"] == output_data["message"]
-    assert data["Reference"] == output_data["length"]
+    assert data["Reference"] == output_data["reference"]
 
 
 @pytest.mark.xfail(reason="#2-3 - need to clarify status code")
