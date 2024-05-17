@@ -22,7 +22,7 @@ source env/bin/activate
 Windows:
 ```
 python3 -m venv env
-source env/Scripts/activate
+env\Scripts\activate.bat
 ```
 P.S. if it will have error, install venv and activate it via command line:
 ```
