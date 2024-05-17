@@ -35,6 +35,5 @@ set PYTHONPATH=%PYTHONPATH%;YOUR_PATH\accuweather_test_project\
 ```
 ### 5. Run test cases:
 ```
-C:\Users\lynat\PycharmProjects\accuweather_test_project\
 pytest -v
 ```
