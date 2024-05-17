@@ -1,6 +1,5 @@
 # allowed no more than 50 requests in a day
-# API_KEY = "SNh9H31nkloustUqwpSprjsv6z39pGGi"
-API_KEY = "tlQ6VU2BFVOi1hgevItx8NqI9jAzUECu"
+API_KEY = "[INPUT_YOUR_API_KEY]"
 
 # Yoshkar-Ola (perhaps it has some logic to change it with random order)
 TOWN1_LOCATION_KEY = 289162
