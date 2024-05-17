@@ -6,7 +6,7 @@ https://developer.accuweather.com
 ## Rate: 
 50 calls/day (be carefully)
 Limit 1 key/developer
-Use OWN API from accuweather.com or ask me key
+Use OWN API from accuweather.com or ask me about it
 
 ## How to start:
 ### 1. Clone the project
