@@ -29,7 +29,7 @@ test_successfully_default = [
             "length": 2,
             "keys": DAILY_KEYS,
             "headline_keys": DAILY_HEADLINE_KEYS,
-            "forecasts_keys": DAILY_FORECASTS_KEYS
+            "forecasts_keys": DAILY_FORECASTS_KEYS_FULL
         }
     },
     {
