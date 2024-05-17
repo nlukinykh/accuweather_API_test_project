@@ -36,8 +36,12 @@ source myvenv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-
-## 4. Run test cases:
+## 4. Create temporary PYTHONPATH to this project:
 ```
+set PYTHONPATH=%PYTHONPATH%;YOUR_PATH\accuweather_test_project\
+```
+## 5. Run test cases:
+```
+C:\Users\lynat\PycharmProjects\accuweather_test_project\
 pytest -v
 ```
