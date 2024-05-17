@@ -24,15 +24,15 @@ Windows:
 python3 -m venv env
 env\Scripts\activate.bat
 ```
-## 3. Install requirements:
+### 3. Install requirements:
 ```
 pip install -r requirements.txt
 ```
-## 4. Create temporary PYTHONPATH to this project:
+### 4. Create temporary PYTHONPATH to this project:
 ```
 set PYTHONPATH=%PYTHONPATH%;YOUR_PATH\accuweather_test_project\
 ```
-## 5. Run test cases:
+### 5. Run test cases:
 ```
 C:\Users\lynat\PycharmProjects\accuweather_test_project\
 pytest -v
