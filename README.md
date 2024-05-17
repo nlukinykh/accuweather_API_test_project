@@ -24,14 +24,6 @@ Windows:
 python3 -m venv env
 env\Scripts\activate.bat
 ```
-P.S. if it will have error, install venv and activate it via command line:
-```
-python -m venv venv
-Windows:
-venv\Scripts\activate.bat
-Ubuntu:
-source myvenv/bin/activate
-```
 ## 3. Install requirements:
 ```
 pip install -r requirements.txt
